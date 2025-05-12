@@ -4,13 +4,13 @@ This workflow keeps Coder focused on providing development environments while us
 
 ## 1. Environment Provisioning
 - IT staff logs into Coder web interface with company SSO
-- Selects "Create Workspace" in Coder dashboard
+- Selects "Create Workspace" in Coder dashboard (workspaces are based on templates created by the platform engineering team)
 - Chooses from Coder templates:
   - Python Web App (Flask/FastAPI)
   - Python Data Analysis (Jupyter)
   - Python Automation Script
 - Enters GitHub repo URL or opts to create new repo
-- Configures workspace resources (CPU/memory)
+- Configures workspace resources (CPU/memory) [or the platform engineers specify a t-shirt size selection or no options at all]
 - Clicks "Create Workspace"
 
 ## 2. Automated Provisioning
